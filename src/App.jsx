@@ -113,7 +113,7 @@ const App = () => {
 
   return (
     <div className="container">
-      <h1>Zombie Apocalypse Team</h1>
+      <h1>Survive a Zombie Apocalypse.</h1>
       <h2>Money: ${money}</h2>
 
       <h2>Available Fighters</h2>
@@ -131,7 +131,7 @@ const App = () => {
       </ul>
 
       <h2>Your Team</h2>
-      {team.length === 0 ? <p>Pick some team members!</p> : (
+      {team.length === 0 ? <p>Pick your team members!</p> : (
         <ul className="team-list">
           {team.map(fighter => (
             <li key={fighter.id} className="fighter-card">
